@@ -100,7 +100,7 @@ nav {
   width: 8%;
   max-width: 58px;
   background-image: url("../images/nav-toggle.png");
-  background-position: 0 0;
+  background-position: 100% 0;
   background-size: 200% 100%;
 }
 
@@ -109,11 +109,11 @@ nav {
   display: block;
   padding-bottom: 100%;
 }
-
+/*
 #nav-button:hover, #nav-button:focus {
     background-position: 100% 0%;
     transition-delay: .1s;
-}
+}*/
 
 .nav-icons {
   display: flex;
@@ -139,10 +139,14 @@ nav {
     padding-bottom: 100%;
     background-repeat: no-repeat;
 }
+nav.toggle #nav-button {
+  background-position: 0% 0%;
+}
 
-.nav-icons.toggle {
+nav.toggle .nav-icons {
   display: none;
 }
+
 
 #me {
     background-image: url("../images/icon-sprite-sheet.png");

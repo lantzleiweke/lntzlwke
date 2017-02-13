@@ -11,7 +11,7 @@
 (function() {
 
   var button = document.getElementById("nav-button");
-  var nav = document.getElementById("nav-icons");
+  var nav = document.getElementById("nav");
 
   button.addEventListener("click", function() {
     nav.classList.toggle('toggle');
