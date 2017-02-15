@@ -12,23 +12,23 @@
 
 <body>
     <header>
-        <img src="./images/logo@2x.png" />
+        <a href="landing.html"><img src="./images/logo@2x.png" /></a>
     </header>
     <div class="main">
 
 
     <div class="text">
     <span id="text1">
-      Do you want to build something awesome?
+      Hell yeah, let's do it.
     </span>
     <span id="text2">
-      <a>WE SHOULD TALK.</a>
+      <a>Forget something?</a>
     </span>
     </div>
-    <form method="post" name="contact_form" action="contact-form-handler.php" id="form" class="topBefore">
-        <input id="name" type="text" placeholder="NAME" required>
-        <input id="email" type="text" placeholder="E-MAIL" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required>
-        <textarea id="message" type="text" placeholder="WHAT SHOULD WE MAKE?" required></textarea>
+    <form method="post" name="contact_form" action="form-email.php" id="form">
+        <input id="name" type="text" name="name" placeholder="NAME" required>
+        <input id="email" type="text" name="email" placeholder="E-MAIL" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required>
+        <textarea id="message" type="text" name="message" placeholder="WHAT SHOULD WE MAKE?" required></textarea>
         <input id="submit" type="submit" value="GET IN TOUCH!">
         <p id="hello">Or, you can email me at <a href="mailto:hello@lntzlwke.com" style="text-decoration:none"><span style="color:#EA886A; border-bottom: 1px solid #EA886A">hello@lntzlwke.com</span></a>!</p>
     </form>

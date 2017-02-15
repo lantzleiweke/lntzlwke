@@ -14,43 +14,75 @@ html {
 }
 
 body {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   min-height: 100vh;
   /*margin: 5px 5px 5px 5px;*/
 }
 
 header {
   padding-top: 1.5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 20px;
 }
 
 header img{
-  align-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
   width:35vw;
   max-width: 400px;
   min-width: 180px;
 }
 div.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-grow:1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex:1;
+      -ms-flex-positive:1;
+          flex-grow:1;
   margin: 15px;
 }
 
 div.text {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction:column;
-  align-items: center;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+      -ms-flex-direction:column;
+          flex-direction:column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 70vw;
   min-width: 300px;
   max-width: 800px;
-  flex-shrink: 1;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
   font-family: 'Lato', sans-serif;
   color: #262626;
   text-align: center;
@@ -72,14 +104,21 @@ span#text2 {
 
 form {
   display: none;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 35vw;
   margin: 15px;
   /*max-width: 300px;*/
 }
 
 form.toggle {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -96,7 +135,8 @@ footer {
     font-size: 1.2vh;
     color: #262626;
     min-width: 100vw;
-    flex-shrink: 1;
+    -ms-flex-negative: 1;
+        flex-shrink: 1;
 }
 
 input, textarea{

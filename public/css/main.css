@@ -11,20 +11,35 @@ html {
 }
 
 body {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     min-height: 100vh;
 }
 
 header {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
 .header-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-grow: 1;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
     font-size: 7vw;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -51,14 +66,22 @@ header {
 
 .main {
     background-color: #262626;
-    flex-grow: 1;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
     padding-top: 10vh;
 }
 
 .aligner {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .aligner-item {
@@ -66,11 +89,13 @@ header {
 }
 
 .aligner-item-top {
-    align-self: flex-start;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
 }
 
 .aligner-item-bottom {
-    align-self: flex-end;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
 }
 
 .body-copy {
@@ -116,9 +141,14 @@ nav {
 }*/
 
 .nav-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  flex-shrink: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
   padding-bottom: 1em;
   padding-right: 1em;
   padding-left: 1em;
@@ -156,7 +186,8 @@ nav.toggle .nav-icons {
 
 #me:hover, #me:focus {
     background-position: 0 100%;
-    transition-delay: .1s;
+    -webkit-transition-delay: .1s;
+            transition-delay: .1s;
 }
 
 #cv {
@@ -167,7 +198,8 @@ nav.toggle .nav-icons {
 
 #cv:hover, #cv:focus {
     background-position: 25% 100%;
-    transition-delay: .1s;
+    -webkit-transition-delay: .1s;
+            transition-delay: .1s;
 }
 
 #exp {
@@ -178,7 +210,8 @@ nav.toggle .nav-icons {
 
 #exp:hover, #exp:focus {
     background-position: 50% 100%;
-    transition-delay: .1s;
+    -webkit-transition-delay: .1s;
+            transition-delay: .1s;
 }
 #txt {
     background: url("../images/icon-sprite-sheet.png");
@@ -188,7 +221,8 @@ nav.toggle .nav-icons {
 
 #txt:hover, #txt:focus {
     background-position: 75% 100%;
-    transition-delay: .1s;
+    -webkit-transition-delay: .1s;
+            transition-delay: .1s;
 }
 #hi {
     background: url("../images/icon-sprite-sheet.png");
@@ -198,7 +232,8 @@ nav.toggle .nav-icons {
 
 #hi:hover, #hi:focus {
     background-position: 100% 100%;
-    transition-delay: .1s;
+    -webkit-transition-delay: .1s;
+            transition-delay: .1s;
 /*}
 footer {
     background-color: #262626;
@@ -208,3 +243,4 @@ footer {
     font-size: 1.2vh;
     color: rgb(178, 178, 178);
 }*/
+}
