@@ -1,0 +1,184 @@
+
+/* RESET AND HOUSEKEEPING +++++++++++++++++++++++++ */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+
+html, body, .panel-container {
+    box-sizing: border-box;
+    font-size: 16px;
+    height: 100%;
+
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+/* LAYOUT CONTAINERS ++++++++++++++++++++++++++++++
+
+All items in this area are meant to be wrappers for styling purposes.
+
+*/
+
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+/* HEADER +++++++++++++++++++++++++++++++++++++++++
+
+All items in this area are realted to the header text and image.
+
+*/
+
+header {
+  display: flex;
+}
+
+.header-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+
+  font-size: 7vh;
+  font-family: 'Roboto', sans-serif;
+  color: #262626;
+  font-weight: 300;
+  letter-spacing: 10px;
+}
+
+.header-logo {
+  width: 15%;
+  max-width: 200px;
+}
+
+.header-logo::before {
+  content: '';
+  display: block;
+  padding-bottom: 100%;
+}
+
+.header-logo img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+
+/* PANELS +++++++++++++++++++++++++++++++++++++++++
+
+All items in this area are related to the panel titles and content.
+
+*/
+.panel-container, article, .panel-title, .panel-content, p {
+  margin:0;
+}
+
+.panel-container {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow:1;
+  overflow-y: auto;
+}
+
+.panel-container article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.panel {
+  flex-grow: 1;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.panel-title {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vw;
+  flex-grow:1;
+
+  background-color: #262626;;
+
+  color:white;
+  font-weight: 100;
+  font-size: 4vh;
+  min-height: 200px;
+}
+
+.strategy .panel-title {
+  background-color: #c9c9c9;
+
+}
+
+.design .panel-title {
+  background-color: #9b9b9b;
+}
+
+.development .panel-title {
+  background-color: #676767;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  width: 100vw;
+
+
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+
+}
+
+.panel-content {
+  height: 0;
+  transition: height 0.5s;
+  overflow: hidden;
+
+}
+
+
+/* NAV ITEMS ++++++++++++++++++++++++++++++++++++++
+
+All items in this are are related to the pinned nav.
+
+*/
+
+.nav-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*flex-shrink: 1;*/
+
+  background-color: #262626;
+
+  /*height: 100px;*/
+
+  padding-bottom: 1em;
+  padding-right: 1em;
+  padding-left: 1em;
+  padding-top:.5em;
+
+}
