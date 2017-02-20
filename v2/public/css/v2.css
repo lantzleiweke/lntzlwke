@@ -6,9 +6,10 @@
 
 
 
-html {
+html, body, .panel-container {
     box-sizing: border-box;
     font-size: 16px;
+    height: 100%;
 
 }
 
@@ -115,8 +116,10 @@ article {
   justify-content: center;
   align-items: center;
   min-width: 100vw;
-  background-color: #262626;;
   flex-grow:1;
+
+  background-color: #262626;;
+
   color:white;
   font-weight: 100;
   font-size: 4vh;
@@ -140,11 +143,10 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-
   min-height: 50vh;
   width: 100vw;
-  /*margin-left: 10vw;
-  margin-right: 10vw;*/
+
+
   border-left: 1px solid black;
   border-right: 1px solid black;
 
