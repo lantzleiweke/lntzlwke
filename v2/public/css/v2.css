@@ -123,8 +123,8 @@ article {
     min-width: 100vw;
     flex-grow: 1;
     background-color: white;
-    border-top: 3px solid #262626;
-    border-bottom: 3px solid #262626;
+    /*border-top: 3px solid #262626;*/
+    /*border-bottom: 3px solid #262626;*/
 
     color: #262626;
     font-weight: 100;
@@ -132,17 +132,28 @@ article {
     min-height: 17vh;
 }
 
-.panel-title.strategy {
+/*.panel-title.strategy {
   border-top: none;
 }
+
+.panel-title.design {
+  border-bottom: none;
+}*/
 
 .panel-title.strategy:hover {
   background-color: rgba(235, 136, 106, 0.8);
 }
 
+.panel-title.strategy:active, .panel-title.strategy:active {
+  background-color: red;
+
+}
+
 .panel-title.design:hover {
   background-color: rgba(65, 92, 125, 0.8);
 }
+
+
 
 .panel-title.development:hover {
   background-color: rgba(55, 156, 196, 0.8);
@@ -162,6 +173,7 @@ p {
     height: 0;
     transition: height 0.5s;
     overflow: hidden;
+    border-bottom: 3px solid #262626;
 }
 
 
