@@ -1,0 +1,48 @@
+html {
+  height:100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body
+
+.main {
+  display: flex;
+  flex-direction: column;
+
+  margin:0;
+}
+
+header {
+  flex: 1;
+}
+
+.header-text
+
+.header-logo
+
+section .panel-container{
+  flex: 8;
+  overflow-y: scroll;
+}
+
+.panel
+
+.panel-title
+
+.panel-content
+
+p
+
+.strategy
+
+.design
+
+.development
+
+nav {
+  flex: 1;
+}
+
+a
