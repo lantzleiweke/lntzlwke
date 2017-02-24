@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="516px" viewBox="0 0 1920 516" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>strategy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="strategy" stroke-width="3">
+            <g transform="translate(960.000000, 103.000000)">
+                <g id="O" transform="translate(344.292979, 207.537896) scale(1, -1) rotate(90.000000) translate(-344.292979, -207.537896) translate(245.792979, -135.962104)">
+                    <path d="M29.6411192,623.853184 C29.6411192,623.853184 29.6411192,636.652739 29.6411192,595.729231 C29.6411192,554.805723 108.194735,559.063365 108.194735,522.191014 C108.194735,482.205211 108.194735,443.99596 108.194735,404.010157 C108.194735,329.196702 108.194735,257.443476 108.194735,179.569792 C108.194735,133.575046 196.745588,140.053753 196.745588,82.0024549 C196.745588,44.6858079 196.745588,0.688618733 196.745588,0.688618733" id="Line" stroke="#868686" stroke-linecap="square"></path>
+                    <ellipse id="Oval-10" stroke="#EA886A" cx="29.6411192" cy="656.520405" rx="29.6411192" ry="29.4912414"></ellipse>
+                </g>
+                <g id="O" transform="translate(474.750757, 55.685640) rotate(90.000000) translate(-474.750757, -55.685640) translate(420.250757, -267.814360)">
+                    <path d="M29.6411192,583.92658 C29.6411192,583.92658 29.6411192,596.726135 29.6411192,555.802627 C29.6411192,514.879119 108.194735,519.136761 108.194735,482.26441 C108.194735,442.278607 108.194735,404.069357 108.194735,364.083553 L108.194735,0.530754913" id="Line" stroke="#868686" stroke-linecap="square"></path>
+                    <ellipse id="Oval-10" stroke="#EA886A" cx="29.6411192" cy="616.593801" rx="29.6411192" ry="29.4912414"></ellipse>
+                </g>
+                <g id="O" transform="translate(656.465813, 69.111215) rotate(90.000000) translate(-656.465813, -69.111215) translate(587.465813, -134.388785)">
+                    <path d="M30.6411192,344.372432 C30.6411192,344.372432 30.6411192,357.135016 30.6411192,316.329717 C30.6411192,275.524418 108.96783,279.769761 108.96783,243.003918 C108.96783,203.133615 108.96783,186.343123 108.96783,146.47282 C108.96783,25.6385992 108.96783,136.072367 108.96783,136.072367" id="Line" stroke="#868686" stroke-linecap="square"></path>
+                    <ellipse id="Oval-10" stroke="#EA886A" cx="29.6411192" cy="377.034179" rx="29.6411192" ry="29.4912414"></ellipse>
+                    <ellipse id="Oval-10" stroke="#EA886A" fill="#EA886A" cx="108.076081" cy="29.4912414" rx="29.6411192" ry="29.4912414"></ellipse>
+                </g>
+                <g id="X" transform="translate(63.881903, 185.759798)" stroke="#369BC4" stroke-linecap="square">
+                    <path d="M0.456017218,0.453711406 L42.37489,42.160625" id="Line"></path>
+                    <path d="M0.456017218,0.453711406 L42.37489,42.160625" id="Line" transform="translate(21.415454, 21.307168) scale(-1, 1) translate(-21.415454, -21.307168) "></path>
+                </g>
+                <g id="X" transform="translate(352.996819, 31.497920)" stroke="#369BC4" stroke-linecap="square">
+                    <path d="M0.456017218,0.453711406 L42.37489,42.160625" id="Line"></path>
+                    <path d="M0.456017218,0.453711406 L42.37489,42.160625" id="Line" transform="translate(21.415454, 21.307168) scale(-1, 1) translate(-21.415454, -21.307168) "></path>
+                </g>
+                <g id="X" transform="translate(446.936366, 133.129275)" stroke="#369BC4" stroke-linecap="square">
+                    <path d="M0.456017218,0.453711406 L42.37489,42.160625" id="Line"></path>
+                    <path d="M0.456017218,0.453711406 L42.37489,42.160625" id="Line" transform="translate(21.415454, 21.307168) scale(-1, 1) translate(-21.415454, -21.307168) "></path>
+                </g>
+                <g id="X" transform="translate(166.941794, 228.408671)" stroke="#369BC4" stroke-linecap="square">
+                    <path d="M0.456017218,0.453711406 L42.37489,42.160625" id="Line"></path>
+                    <path d="M0.456017218,0.453711406 L42.37489,42.160625" id="Line" transform="translate(21.415454, 21.307168) scale(-1, 1) translate(-21.415454, -21.307168) "></path>
+                </g>
+                <g id="X" transform="translate(209.807413, 75.961638)" stroke="#369BC4" stroke-linecap="square">
+                    <path d="M0.456017218,0.453711406 L42.37489,42.160625" id="Line"></path>
+                    <path d="M0.456017218,0.453711406 L42.37489,42.160625" id="Line" transform="translate(21.415454, 21.307168) scale(-1, 1) translate(-21.415454, -21.307168) "></path>
+                </g>
+                <g id="X" transform="translate(589.213738, 145.833195)" stroke="#369BC4" stroke-linecap="square">
+                    <path d="M0.456017218,0.453711406 L42.37489,42.160625" id="Line"></path>
+                    <path d="M0.456017218,0.453711406 L42.37489,42.160625" id="Line" transform="translate(21.415454, 21.307168) scale(-1, 1) translate(-21.415454, -21.307168) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

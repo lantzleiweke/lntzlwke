@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="368px" height="446px" viewBox="0 0 368 446" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icons-sprite</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="96.1538462" height="124.434389" rx="14"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="96.1538462" height="124.434389" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="0" y="0" width="96.1538462" height="124.434389" rx="14"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="96.1538462" height="124.434389" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="0" y="0" width="109.356202" height="70" rx="14"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="109.356202" height="70" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <rect id="path-7" x="0" y="0" width="109.356202" height="70" rx="14"></rect>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="109.356202" height="70" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <rect id="path-9" x="0" y="0" width="109.356202" height="70" rx="14"></rect>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="109.356202" height="70" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <rect id="path-11" x="0" y="0" width="96.1538462" height="124.434389" rx="14"></rect>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="96.1538462" height="124.434389" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+        <path d="M39.1111111,76.0330024 C39.1111111,73.8220589 40.910672,72.029735 43.1036119,72.029735 L66.8963881,72.029735 C69.1013854,72.029735 70.8888889,73.8227235 70.8888889,76.0330024 L70.8888889,108.94527 L39.1111111,108.94527 L39.1111111,76.0330024 Z" id="path-13"></path>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="31.7777778" height="36.9155354" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+        <path d="M0,36.1437089 C0,33.3834792 1.92522979,29.9936628 4.29284891,28.5766943 L48.1315554,2.34018201 C51.9248926,0.0699522119 58.074891,0.0698227339 61.8684446,2.34018201 L105.707151,28.5766943 C108.078026,29.9956114 110,33.3753023 110,36.1437089 L110,105.142579 C110,107.352946 108.205131,109.144802 106.003734,109.144802 L3.996266,109.144802 C1.78918923,109.144802 0,107.350403 0,105.142579 L0,36.1437089 Z" id="path-15"></path>
+        <mask id="mask-16" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="110" height="108.507341" fill="white">
+            <use xlink:href="#path-15"></use>
+        </mask>
+        <path d="M0,36.1437089 C0,33.3834792 1.92522979,29.9936628 4.29284891,28.5766943 L48.1315554,2.34018201 C51.9248926,0.0699522119 58.074891,0.0698227339 61.8684446,2.34018201 L105.707151,28.5766943 C108.078026,29.9956114 110,33.3753023 110,36.1437089 L110,105.142579 C110,107.352946 108.205131,109.144802 106.003734,109.144802 L3.996266,109.144802 C1.78918923,109.144802 0,107.350403 0,105.142579 L0,36.1437089 Z" id="path-17"></path>
+        <mask id="mask-18" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="110" height="108.507341" fill="white">
+            <use xlink:href="#path-17"></use>
+        </mask>
+        <path d="M39.1111111,76.0330024 C39.1111111,73.8220589 40.910672,72.029735 43.1036119,72.029735 L66.8963881,72.029735 C69.1013854,72.029735 70.8888889,73.8227235 70.8888889,76.0330024 L70.8888889,108.94527 L39.1111111,108.94527 L39.1111111,76.0330024 Z" id="path-19"></path>
+        <mask id="mask-20" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="31.7777778" height="36.9155354" fill="white">
+            <use xlink:href="#path-19"></use>
+        </mask>
+        <path d="M39.1111111,76.0330024 C39.1111111,73.8220589 40.910672,72.029735 43.1036119,72.029735 L66.8963881,72.029735 C69.1013854,72.029735 70.8888889,73.8227235 70.8888889,76.0330024 L70.8888889,108.94527 L39.1111111,108.94527 L39.1111111,76.0330024 Z" id="path-21"></path>
+        <mask id="mask-22" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="31.7777778" height="36.9155354" fill="white">
+            <use xlink:href="#path-21"></use>
+        </mask>
+        <path d="M0,36.1437089 C0,33.3834792 1.92522979,29.9936628 4.29284891,28.5766943 L48.1315554,2.34018201 C51.9248926,0.0699522119 58.074891,0.0698227339 61.8684446,2.34018201 L105.707151,28.5766943 C108.078026,29.9956114 110,33.3753023 110,36.1437089 L110,105.142579 C110,107.352946 108.205131,109.144802 106.003734,109.144802 L3.996266,109.144802 C1.78918923,109.144802 0,107.350403 0,105.142579 L0,36.1437089 Z" id="path-23"></path>
+        <mask id="mask-24" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="110" height="108.507341" fill="white">
+            <use xlink:href="#path-23"></use>
+        </mask>
+    </defs>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons-sprite">
+            <g id="Group-5" transform="translate(117.000000, 10.000000)">
+                <g id="Group-2">
+                    <g id="Group">
+                        <use id="Rectangle-3" stroke="#369BC4" mask="url(#mask-2)" stroke-width="6" fill="#FFFFFF" xlink:href="#path-1"></use>
+                        <text id="CV" font-family="Roboto-Black, Roboto" font-size="20" font-weight="700" fill="#868686">
+                            <tspan x="52.0361991" y="32.5746606">CV</tspan>
+                        </text>
+                        <path d="M14.1402715,53.5 L82.0135747,53.5" id="Line" stroke="#868686" stroke-width="3" stroke-linecap="square"></path>
+                        <path d="M14.1402715,61.5 L82.0135747,61.5" id="Line" stroke="#868686" stroke-width="3" stroke-linecap="square"></path>
+                        <path d="M14.1402715,69.5 L82.0135747,69.5" id="Line" stroke="#868686" stroke-width="3" stroke-linecap="square"></path>
+                        <path d="M14.1402715,83.5 L48.0769231,83.5" id="Line" stroke="#868686" stroke-width="3" stroke-linecap="square"></path>
+                        <path d="M14.1402715,90.5 L48.0769231,90.5" id="Line" stroke="#868686" stroke-width="3" stroke-linecap="square"></path>
+                        <path d="M14.1402715,98.5 L48.0769231,98.5" id="Line" stroke="#868686" stroke-width="3" stroke-linecap="square"></path>
+                        <path d="M14.1402715,106.5 L48.0769231,106.5" id="Line" stroke="#868686" stroke-width="3" stroke-linecap="square"></path>
+                    </g>
+                </g>
+                <text id="RESUME" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" fill="#369BC4">
+                    <tspan x="9" y="156">RESUME</tspan>
+                </text>
+            </g>
+            <g id="Group-4" transform="translate(10.000000, 10.000000)">
+                <g id="Group-2-Copy-5">
+                    <g id="Group">
+                        <use id="Rectangle-3" stroke="#868686" mask="url(#mask-4)" stroke-width="6" fill="#FFFFFF" xlink:href="#path-3"></use>
+                        <text id="CV" font-family="Roboto-Black, Roboto" font-size="20" font-weight="700" fill="#868686">
+                            <tspan x="52.0361991" y="32.5746606">CV</tspan>
+                        </text>
+                        <path d="M14.1402715,53.5 L82.0135747,53.5" id="Line" stroke="#868686" stroke-width="3" stroke-linecap="square"></path>
+                        <path d="M14.1402715,61.5 L82.0135747,61.5" id="Line" stroke="#868686" stroke-width="3" stroke-linecap="square"></path>
+                        <path d="M14.1402715,69.5 L82.0135747,69.5" id="Line" stroke="#868686" stroke-width="3" stroke-linecap="square"></path>
+                        <path d="M14.1402715,83.5 L48.0769231,83.5" id="Line" stroke="#868686" stroke-width="3" stroke-linecap="square"></path>
+                        <path d="M14.1402715,90.5 L48.0769231,90.5" id="Line" stroke="#868686" stroke-width="3" stroke-linecap="square"></path>
+                        <path d="M14.1402715,98.5 L48.0769231,98.5" id="Line" stroke="#868686" stroke-width="3" stroke-linecap="square"></path>
+                        <path d="M14.1402715,106.5 L48.0769231,106.5" id="Line" stroke="#868686" stroke-width="3" stroke-linecap="square"></path>
+                    </g>
+                </g>
+                <text id="RESUME-Copy-7" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" fill="#868686">
+                    <tspan x="9" y="156">RESUME</tspan>
+                </text>
+            </g>
+            <g id="Group-11" transform="translate(10.000000, 181.000000)">
+                <g id="Group-9">
+                    <g id="Group-8" transform="translate(0.000000, 10.000000)"></g>
+                    <use id="Rectangle-10" stroke="#868686" mask="url(#mask-6)" stroke-width="6" xlink:href="#path-5"></use>
+                    <polyline id="Line" stroke="#979797" stroke-width="3" stroke-linecap="square" points="5.06325161 10 48.4850442 33.7963336 54.3663716 35 60.0509465 33.7963336 103.669492 10"></polyline>
+                </g>
+                <text id="CONTACT" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" fill="#868686">
+                    <tspan x="9" y="101">CONTACT</tspan>
+                </text>
+            </g>
+            <g id="Group-10" transform="translate(130.000000, 181.000000)">
+                <g id="Group-9">
+                    <g id="Group-8" transform="translate(0.000000, 10.000000)"></g>
+                    <use id="Rectangle-10" stroke="#369BC4" mask="url(#mask-8)" stroke-width="6" xlink:href="#path-7"></use>
+                    <polyline id="Line" stroke="#979797" stroke-width="3" stroke-linecap="square" points="5.06325161 10 48.4850442 33.7963336 54.3663716 35 60.0509465 33.7963336 103.669492 10"></polyline>
+                </g>
+                <text id="CONTACT" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" fill="#369BC4">
+                    <tspan x="8" y="101">CONTACT</tspan>
+                </text>
+            </g>
+            <g id="Group-7" transform="translate(250.000000, 181.000000)">
+                <g id="Group-9">
+                    <g id="Group-8" transform="translate(0.000000, 10.000000)"></g>
+                    <use id="Rectangle-10" stroke="#EA886A" mask="url(#mask-10)" stroke-width="6" xlink:href="#path-9"></use>
+                    <polyline id="Line" stroke="#979797" stroke-width="3" stroke-linecap="square" points="5.06325161 10 48.4850442 33.7963336 54.3663716 35 60.0509465 33.7963336 103.669492 10"></polyline>
+                </g>
+                <text id="CONTACT" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" fill="#EA886A">
+                    <tspan x="9" y="101">CONTACT</tspan>
+                </text>
+            </g>
+            <g id="Group-6" transform="translate(224.000000, 10.000000)">
+                <g id="Group-2-Copy-4">
+                    <g id="Group">
+                        <use id="Rectangle-3" stroke="#EA886A" mask="url(#mask-12)" stroke-width="6" fill="#FFFFFF" xlink:href="#path-11"></use>
+                        <text id="CV" font-family="Roboto-Black, Roboto" font-size="20" font-weight="700" fill="#868686">
+                            <tspan x="52.0361991" y="32.5746606">CV</tspan>
+                        </text>
+                        <path d="M14.1402715,53.5 L82.0135747,53.5" id="Line" stroke="#868686" stroke-width="3" stroke-linecap="square"></path>
+                        <path d="M14.1402715,61.5 L82.0135747,61.5" id="Line" stroke="#868686" stroke-width="3" stroke-linecap="square"></path>
+                        <path d="M14.1402715,69.5 L82.0135747,69.5" id="Line" stroke="#868686" stroke-width="3" stroke-linecap="square"></path>
+                        <path d="M14.1402715,83.5 L48.0769231,83.5" id="Line" stroke="#868686" stroke-width="3" stroke-linecap="square"></path>
+                        <path d="M14.1402715,90.5 L48.0769231,90.5" id="Line" stroke="#868686" stroke-width="3" stroke-linecap="square"></path>
+                        <path d="M14.1402715,98.5 L48.0769231,98.5" id="Line" stroke="#868686" stroke-width="3" stroke-linecap="square"></path>
+                        <path d="M14.1402715,106.5 L48.0769231,106.5" id="Line" stroke="#868686" stroke-width="3" stroke-linecap="square"></path>
+                    </g>
+                </g>
+                <text id="RESUME" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" fill="#EA886A">
+                    <tspan x="9" y="156">RESUME</tspan>
+                </text>
+            </g>
+            <g id="Group-13" transform="translate(130.000000, 296.000000)">
+                <text id="HOME" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" fill="#369BC4">
+                    <tspan x="27" y="141">HOME</tspan>
+                </text>
+                <g id="Group-3" stroke-width="6">
+                    <use id="Rectangle-17" stroke="#868686" mask="url(#mask-14)" xlink:href="#path-13"></use>
+                    <use id="Combined-Shape" stroke="#369BC4" mask="url(#mask-16)" xlink:href="#path-15"></use>
+                </g>
+            </g>
+            <g id="Group-12" transform="translate(10.000000, 296.000000)">
+                <text id="HOME" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" fill="#868686">
+                    <tspan x="27" y="141">HOME</tspan>
+                </text>
+                <g id="Group-3-Copy" stroke="#868686" stroke-width="6">
+                    <use id="Combined-Shape" mask="url(#mask-18)" xlink:href="#path-17"></use>
+                    <use id="Rectangle-17" mask="url(#mask-20)" xlink:href="#path-19"></use>
+                </g>
+            </g>
+            <g id="Group-14" transform="translate(250.000000, 296.000000)">
+                <text id="HOME" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" fill="#EA886A">
+                    <tspan x="27" y="141">HOME</tspan>
+                </text>
+                <g id="Group-3" stroke-width="6">
+                    <use id="Rectangle-17" stroke="#868686" mask="url(#mask-22)" xlink:href="#path-21"></use>
+                    <use id="Combined-Shape" stroke="#EA886A" mask="url(#mask-24)" xlink:href="#path-23"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
