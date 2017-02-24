@@ -1,7 +1,7 @@
 var container = document.querySelector('.panel-container');
 var articles = container.querySelectorAll('article');
-
 var firstContainer = articles[0].querySelector('.panel-content');
+
 setContentHeight(firstContainer);
 
 for (var i = 0; i < articles.length; i++) {
@@ -13,7 +13,7 @@ for (var i = 0; i < articles.length; i++) {
 }
 
 function setContentHeight(container) {
-  container.style.height = container.querySelector('p').clientHeight + 'px';
+  container.style.height = container.querySelector('.inner-content').clientHeight + 'px';
 }
 
 function resetHeights() {

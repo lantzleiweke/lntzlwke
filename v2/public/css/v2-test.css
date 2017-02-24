@@ -1,48 +1,222 @@
-html {
-  height:100%;
-  min-height: 100%;
-  margin: 0;
-  padding: 0;
+/* RESET AND HOUSEKEEPING +++++++++++++++++++++++++ */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html, body {
+    box-sizing: border-box;
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
 }
 
-body
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+/* LAYOUT CONTAINERS ++++++++++++++++++++++++++++++
+
+All items in this area are meant to be wrappers for styling purposes.
+
+*/
 
 .main {
-  display: flex;
-  flex-direction: column;
-
-  margin:0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
+
+
+/* HEADER +++++++++++++++++++++++++++++++++++++++++
+
+All items in this area are realted to the header text and image.
+
+*/
 
 header {
-  flex: 1;
+    display: flex;
+    border-bottom: 2px solid #e7e7e7;
 }
 
-.header-text
-
-.header-logo
-
-section .panel-container{
-  flex: 8;
-  overflow-y: scroll;
+.header-text {
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+    padding-left: 2vw;
+    flex-grow: 1;
+    font-size: 7vh;
+    font-family: 'Roboto', sans-serif;
+    color: #262626;
+    font-weight: 300;
+    letter-spacing: 10px;
 }
 
-.panel
-
-.panel-title
-
-.panel-content
-
-p
-
-.strategy
-
-.design
-
-.development
-
-nav {
-  flex: 1;
+.header-logo {
+    width: 15vh;
+    height: 15vh;
+    /*max-width: 200px;
+    min-width: 100px;
+    max-height: 200px;
+    min-height: 100px;*/
+    /*max-height: 10vh;*/
 }
 
-a
+.header-logo::before {
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+}
+
+.header-logo img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+
+/* PANELS +++++++++++++++++++++++++++++++++++++++++
+
+All items in this area are related to the panel titles and content.
+
+*/
+
+.panel-container, article, .panel-title, .panel-content, p {
+    margin: 0;
+}
+
+.panel-container {
+    display: block;
+    /*flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;*/
+    overflow: auto;
+    height: 78vh;
+
+}
+
+
+article {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #e7e7e7;
+}
+
+.panel-title {
+    display: flex;
+    padding-left:2vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    min-width: 100vw;
+    flex-grow: 1;
+    /*border-top: 3px solid #262626;*/
+    /*border-bottom: 3px solid #262626;*/
+
+    color: #262626;
+    font-weight: 100;
+    font-size: 4vh;
+    height: 10vh;
+}
+
+.panel-title.strategy {
+  color: #CBCBCB;
+}
+
+.panel-title.design {
+  color: #969696;
+}
+
+.panel-title.development {
+  color: #626262;
+}
+
+.inner-content {
+    min-height: 48vh;
+    width: 100vw;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction:column;
+
+}
+
+.inner-content.strategy {
+  background-image: url("../images/strategy@2x.png");
+  background-size: 100vw;
+  background-repeat: no-repeat;
+
+}
+
+#content-title-strategy {
+  display: flex;
+  align-items: flex-start;
+  color: #262626;
+  font-size: 5vh;
+}
+
+#content-body-strategy {
+  color: #262626;
+  font-size: 3vh;
+  height: 30vh;
+}
+
+
+/*
+.inner-content p {
+align-self: flex-end;
+}
+.inner-content img {
+  align-self: flex-start;
+}*/
+.panel-content {
+    height: 0;
+    transition: height 0.5s;
+    overflow: hidden;
+    /*border-bottom: 3px solid #262626;*/
+}
+
+article.development {
+  border-bottom: none;
+}
+
+/*.panel-title:focus {
+  color: #ffffff;
+  outline: none;
+}*/
+
+
+/* NAV ITEMS ++++++++++++++++++++++++++++++++++++++
+
+All items in this are are related to the pinned nav.
+
+*/
+
+.nav-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 7vh;
+    border-top: 2px solid #e7e7e7;
+
+    /*flex-shrink: 1;*/
+    /*background-color: #e7e7e7;*/
+    /*height: 100px;*/
+    /*padding-bottom: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: .5em;*/
+}
+
+.nav-icons > a {
+  text-decoration: none;
+  color: #262626;
+  font-size: 20px;
+}

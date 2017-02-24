@@ -10,14 +10,17 @@
                 'gtm.start': new Date().getTime(),
                 event: 'gtm.js'
             });
-            var f = d.getElementsByTagName(s)[0],
+            var f =
+                d.getElementsByTagName(s)[0],
                 j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
+                dl = l != 'dataLayer' ?
+                '&l=' + l : '';
             j.async = true;
             j.src =
                 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
             f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-PKMQCVW');
+        })(window, document, 'script', 'dataLayer',
+            'GTM-PKMQCVW');
     </script>
     <!-- End Google Tag Manager -->
     <meta charset="utf-8">
@@ -43,44 +46,60 @@
                 <img src="./images/logo.png" />
             </div>
         </header>
+
+
         <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PKMQCVW"
       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->
-        <section class="panel-container">
 
-            <article class="strategy panel">
-                <h2 class="panel-title strategy">STRATEGY</h2>
-                <div class="panel-content">
-                    <p>Sf the user.<br /><br /> <br /> <br /> <br /> My hat makes this a success? </p>
-                </div>
-            </article>
-            <article class="design panel">
-                <h2 class="panel-title design">DESIGN</h2>
-                <div class="panel-content">
-                    <p>Hey what's up dawg, I like DEZINE.</p>
-                </div>
-            </article>
-            <article class="development panel">
-                <h2 class="panel-title development">DEVELOPMENT</h2>
-                <div class="panel-content">
-                    <p>Hey waht's up dawgmag, I lk DEVELOPMENY</p>
-                </div>
-            </article>
+
+        <section class="panel-container"> <!-- this will contain ALL body panels, it has to be block -->
+            <div class="panel-wrapper"> <!-- this will be used to set flex so that I can arrange the content -->
+              <article class="panel" id="strategy-panel"> <!-- this is to wrap up each panel grouping -->
+                  <h2 class="panel-title" id="strategy-title">STRATEGY</h2> <!-- This is the title that shows and is clickable -->
+                  <div class="panel-content" id="strategy-content"> <!-- This is for js show/hide -->
+                      <div class="inner-content" id="strategy-inner-content"> <!--This is for the js show/hide -->
+                          <h3 class="content-title" id="strategy-content-title">Define goals, then achieve them.<br/> <br/>
+
+                          </h3> <!-- this is the top half of the content that needs to balnce -->
+                          <p class="content-body" id="strategy-content-body">This is a bunch of text that will go in the body right here <!-- This is the bottom half of the content that needs to be balanced -->
+                            <br />about STRATEGY and all of the things I think about it.</p>
+                      </div>
+                  </div>
+              </article>
+
+              <article class="panel" id="design-panel">
+                  <h2 class="panel-title" id="design-title">DESIGN</h2>
+                  <div class="panel-content" id="design-content">
+                      <div class="inner-content" id="design-inner-content"> <!--This is for the js show/hide -->
+                          <h3 class="content-title" id="design-content-title">Design experiences, articulate them visually. <br/> <br/>
+
+                          </h3>
+                          <p class="content-body" id="design-content-body">This is a bunch of text that will go in the body right here <br />about DESIGN and all of the things I think about it.</p>
+                      </div>
+                  </div>
+              </article>
+
+              <article class="panel" id="dev-panel">
+                  <h2 class="panel-title" id="dev-title">DEVELOPMENT</h2>
+                  <div class="panel-content" id="dev-content">
+                      <div class="inner-content" id="dev-inner-content"> <!--This is for the js show/hide -->
+                          <h3 class="content-title" id="dev-content-title">This is a title.</h3>
+                          <p class="content-body" id="dev-content-body">This is a bunch of text that will go in the body right here <br />about DEVELOPMENT and all of the things I think about it.</p>
+                      </div>
+                  </div>
+              </article>
+
+            </div>
         </section>
 
         <script src="./scripts/sizer.js"></script>
 
         <nav>
-
-            <div class="nav-icons" id="nav-icons">
-                <a id="me" href="me.html">ME</a>
-                <a id="cv" href="cv.html">CV</a>
-                <a id="exp" href="exp.html">XP</a>
-                <a id="txt" href="txt.html">TXT</a>
-                <a id="hi" href="hi.html">HI</a>
-            </div>
-
+                <a class="nav-item" id="home" href="index-v2.html">home</a>
+                <a class="nav-item" id="resume" href="resume.html">resume</a>
+                <a class="nav-item" id="contact" href="contact.html">contact</a>
         </nav>
 
     </div>

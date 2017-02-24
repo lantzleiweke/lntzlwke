@@ -1,12 +1,14 @@
-/* RESET AND HOUSEKEEPING +++++++++++++++++++++++++ */
+/* +++++++++++ RESET and HOUSEKEEPING +++++++++++ */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 html, body {
     box-sizing: border-box;
     font-size: 16px;
-    height: 100%;
+    height: 100vh;
+    width: 100vw;
 }
 
 *, *:before, *:after {
@@ -17,11 +19,7 @@ html, body {
 }
 
 
-/* LAYOUT CONTAINERS ++++++++++++++++++++++++++++++
-
-All items in this area are meant to be wrappers for styling purposes.
-
-*/
+/* +++++++++++ PAGE LAYOUT +++++++++++ */
 
 .main {
     display: flex;
@@ -30,37 +28,29 @@ All items in this area are meant to be wrappers for styling purposes.
 }
 
 
-/* HEADER +++++++++++++++++++++++++++++++++++++++++
-
-All items in this area are realted to the header text and image.
-
-*/
+/* +++++++++++ HEADER LAYOUT +++++++++++ */
 
 header {
     display: flex;
-    border-bottom: 3px solid #262626;
+    border-bottom: 2px solid #e7e7e7;
 }
+
+/* +++++++++++ HEADER CONTENT +++++++++++ */
 
 .header-text {
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-grow: 1;
-    font-size: 7vh;
-    font-family: 'Roboto', sans-serif;
-    color: #262626;
-    font-weight: 300;
-    letter-spacing: 10px;
+    padding-left: 2%;
+
+    font-family: 'roboto  ', sans-serif;
+    font-weight: 200;
+    font-size: 4em;
 }
 
 .header-logo {
-    width: 20vh;
-    height: 20vh;
-    /*max-width: 200px;
-    min-width: 100px;
-    max-height: 200px;
-    min-height: 100px;*/
-    /*max-height: 10vh;*/
+    width: 15vh;
+    height: 15vh; /* ++++++ This has to add up to 100 */
 }
 
 .header-logo::before {
@@ -78,129 +68,175 @@ header {
 }
 
 
-/* PANELS +++++++++++++++++++++++++++++++++++++++++
-
-All items in this area are related to the panel titles and content.
-
-*/
-
-.panel-container, article, .panel-title, .panel-content, p {
-    margin: 0;
-}
+/* +++++++++++ PANEL LAYOUT +++++++++++ */
 
 .panel-container {
     display: block;
-    /*flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;*/
     overflow: auto;
-    height: 70vh;
-
+    height: 78vh;
 }
-
-.panel-container article {
+/*
+.panel-wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.panel {
-    flex-grow: 1;
-}
-
-article {
-    display: flex;
-    flex-direction: column;
-}
-
-.panel-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-width: 100vw;
-    flex-grow: 1;
-    background-color: white;
-    /*border-top: 3px solid #262626;*/
-    /*border-bottom: 3px solid #262626;*/
-
-    color: #262626;
-    font-weight: 100;
-    font-size: 4vh;
-    min-height: 17vh;
-}
-
-/*.panel-title.strategy {
-  border-top: none;
-}
-
-.panel-title.design {
-  border-bottom: none;
 }*/
 
-.panel-title.strategy:hover {
-  background-color: rgba(235, 136, 106, 0.8);
-}
-
-.panel-title.strategy:active, .panel-title.strategy:active {
-  background-color: red;
-
-}
-
-.panel-title.design:hover {
-  background-color: rgba(65, 92, 125, 0.8);
-}
-
-
-
-.panel-title.development:hover {
-  background-color: rgba(55, 156, 196, 0.8);
-}
-
-p {
+.panel {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 20vh;
-    width: 100vw;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    flex-direction: column;
+    border-bottom: 2px solid #e7e7e7;
 }
 
+/* +++++++++++ PANEL TITLE +++++++++++ */
+
+.panel-title {
+  display: flex;
+  flex-grow: 1;
+
+  min-width: 100vw;
+  padding-left: 2vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+
+  font-family: 'roboto  ', sans-serif;
+  color: #262626;
+  font-weight: 300;
+  font-size:2em;
+  height: 10vh; /* ++++++ This has to add up to 100 */
+}
+
+#strategy-title {
+  color: #868686;
+  /*border-bottom: 3px solid black;*/
+}
+
+#design-title {
+  color: #868686;
+}
+
+#dev-title {
+  color: #868686;
+}
+
+/* +++++++++++ PANEL CONTENT LAYOUT +++++++++++ */
+
+/* this is is for the default hidden state */
 .panel-content {
-    height: 0;
-    transition: height 0.5s;
-    overflow: hidden;
-    border-bottom: 3px solid #262626;
+  height: 0;
+  transition: height 0.5s;
+  overflow: hidden;
 }
 
+.inner-content {
+  display: flex;
+  flex-direction: column;
+  height: 48vh;
+  min-height: 48vh;
+  max-height: 48vh; /* this has to add up to 100, use "min-height" here to forcethe content to stretch the full container. */
+  width: 100vw;
 
-/* NAV ITEMS ++++++++++++++++++++++++++++++++++++++
-
-All items in this are are related to the pinned nav.
-
-*/
-
-.nav-icons {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 10vh;
-
-
-    flex-shrink: 1;
-    background-color: #262626;
-    /*height: 100px;*/
-    /*padding-bottom: 1em;
-    padding-right: 1em;
-    padding-left: 1em;
-    padding-top: .5em;*/
+  font-family: 'quicksand', sans-serif;
 }
 
-.nav-icons > a {
-  text-decoration: none;
-  color: white;
-  font-size: 50px;
+.content-title {
+  color: #262626;
+  font-size: 2em;
+}
+
+.content-body {
+  font-size: 1.5em;
+  color: #262626;
+}
+
+/* +++++++++++ STRATEGY PANEL +++++++++++ */
+
+#strategy-content {
+  background-image: url("../images/strategy.svg");
+  background-size: 100vw;
+  background-position: 80% 80%;
+  background-repeat: no-repeat;
+}
+
+.inner-content {
+  position: relative;
+  top: 10%;
+  left: 10%;
+}
+
+#strategy-content-title {
+
+}
+
+#strategy-content-body {
+
+}
+
+/* +++++++++++ DESIGN PANEL +++++++++++ */
+
+#design-content {
+  background-image: url("../images/design.svg");
+  background-size: 100vw;
+  background-position: 80% 80%;
+  background-repeat: no-repeat;
+}
+
+#design-content-title {
+
+}
+
+#design-content-body {
+
+}
+
+/* +++++++++++ DEV PANEL +++++++++++ */
+
+#dev-content {
+  background-image: url("../images/development.svg");
+  background-size: 100vw;
+  background-position: 80% 80%;
+  background-repeat: no-repeat;
+}
+
+#dev-content-title {
+
+}
+
+#dev-content-body {
+
+}
+
+.dev-panel {
+  border-bottom: none;
+}
+
+/* +++++++++++ NAVIGATION LAYOUT +++++++++++*/
+
+nav {
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+}
+
+/* +++++++++++ NAVIGATION CONTENT +++++++++++*/
+
+.nav-item {
+  /*display: flex;*/
+}
+
+#home {
+  display: block;
+  height: 100px;
+  width: 100px;
+  background-image: url(./images/icons-sprite.svg)
+  }
+
+
+#resume {
+
+
+}
+
+#contact {
+
+
 }
